@@ -1,4 +1,4 @@
-name: Reusable workflow example
+name: Reusable workflow from feature branch
 
 on:
   workflow_call:
