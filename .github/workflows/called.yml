@@ -11,6 +11,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - id: step1
-        run: echo "Running Reusable Workflow"
+        run: echo "Running Reusable Workflow from Feature branch"
       - id: step2
         run: exit 1
