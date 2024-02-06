@@ -13,4 +13,4 @@ jobs:
       - id: step1
         run: echo "Running Reusable Workflow"
       - id: step2
-        run: exit 0
+        run: exit 1
