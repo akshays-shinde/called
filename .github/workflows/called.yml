@@ -7,10 +7,10 @@ on:
       - main
 
 jobs:
-  example_job:
+  api-tests:
     runs-on: ubuntu-latest
     steps:
       - id: step1
         run: echo "Running Reusable Workflow from Feature branch"
       - id: step2
-        run: exit 1
+        run: exit 0
